@@ -1,8 +1,14 @@
 Cadastro de produtos em ReactJs
-Feito por Guilherme De Noni Marchioro e Rodrigo Margotti
+<br>
+*Feito por Guilherme De Noni Marchioro e Rodrigo Margotti*
+<br>
+<br>
 Front-end -> ReactJs
+<br>
 Back-end -> JSON Server
-
+<br>
+<br>
+<br>
 <h1>Telas da aplicação web</h1>
 
 ## Login
