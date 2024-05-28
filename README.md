@@ -8,7 +8,6 @@ Front-end -> ReactJs
 Back-end -> JSON Server
 <br>
 <br>
-<br>
 <h1>Telas da aplicação web</h1>
 
 ## Login
