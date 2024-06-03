@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
 
 import './App.css'
-import ProductTable from './components/ProductTable'
-import ProductForm from './components/ProductForm'
+import ProductTable from './routes/ProductTable'
+import ProductForm from './routes/ProductForm'
+import LoginPage from './routes/LoginPage';
 
 // CRUD COM JSON SERVER
 
@@ -111,7 +112,6 @@ function App() {
           products.length > 0 ? <ProductTable products={products} deleteProduct={deleteProduct} editProduct={getProductById} /> : <h3 style={{marginBottom: '30px'}}>Nenhum produto cadastrado...</h3>
         }
       </div>
-
       <ProductForm name={name} price={price} stock={stock} handleName={handleName} handlePrice={handlePrice} handleStock={handleStock} saveProduct={saveProduct}/>
     </>
   )
