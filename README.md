@@ -1,4 +1,4 @@
-Cadastro de produtos em ReactJs
+WebApp em ReactJs -Cadastro de usuários e serviços
 <br>
 *Feito por Guilherme De Noni Marchioro e Rodrigo Margotti*
 <br>
