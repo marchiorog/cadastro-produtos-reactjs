@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #343a40; /* Cor de fundo cinza escuro */
+  color: #fff; /* Cor do texto branco */
+  padding: 8px 20px; /* Espaçamento interno menor */
+  display: flex; /* Layout flexível */
+  justify-content: space-between; /* Espaço entre os itens */
+  align-items: center; /* Alinhar itens verticalmente */
+}
+
+.navbar-brand {
+  font-size: 20px; /* Tamanho da fonte do logo menor */
+  font-weight: bold; /* Negrito */
+  text-decoration: none; /* Remover sublinhado */
+  color: #fff; /* Cor do texto branco */
+}
+
+.navbar-links {
+  list-style-type: none; /* Remover marcadores de lista */
+  padding: 0; /* Remover padding padrão */
+  display: flex; /* Layout flexível */
+}
+
+.navbar-links li {
+  margin-left: 10px; /* Espaçamento à esquerda menor */
+}
+
+.navbar-links li a {
+  color: #fff; /* Cor do texto branco */
+  text-decoration: none; /* Remover sublinhado */
+  transition: color 0.3s ease-in-out; /* Transição suave de cor */
+}
+
+.navbar-links li a:hover {
+  color: #007bff; /* Cor do texto azul no hover */
+}
