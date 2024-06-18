@@ -5,7 +5,7 @@ import '../styles/Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-brand">Meu App</Link>
+      <Link to="/" className="navbar-brand">WebApp</Link>
       <ul className="navbar-links">
         <li><Link to="/services">Serviços</Link></li>
         <li><Link to="/users">Usuários</Link></li>

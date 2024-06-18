@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.users-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.users-page:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.users-page h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.users-page .search-filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.users-page .search-bar {
+  flex-grow: 1; /* Ocupa o espaço disponível */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.users-page .filter-input {
+  flex-grow: 1; /* Ocupa o espaço disponível */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.users-page .sort-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.users-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.users-page li {
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.users-page li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.users-page .user-detail {
+  font-weight: bold;
+}
+
+.users-page button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 10px; 
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px; 
+  transition: background-color 0.3s ease;
+}
+
+.users-page button.edit {
+  background-color: #007bff;
+  margin-right: 8px; 
+}
+
+.users-page button:hover {
+  background-color: #c82333;
+}
+
+.users-page button.edit:hover {
+  background-color: #0056b3;
+}
+
+.users-page .add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 10px; 
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px; 
+  transition: background-color 0.3s ease;
+}
+
+.users-page .add-button:hover {
+  background-color: #0056b3;
+}

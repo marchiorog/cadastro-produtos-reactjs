@@ -1,10 +1,216 @@
 {
-  "products": [
+  "users": [
     {
-      "name": "Uva",
-      "price": "15",
-      "stock": "30",
-      "id": "630f"
+      "name": "teste",
+      "email": "teste@hotmail.com",
+      "password": "123",
+      "role": "teste",
+      "age": "23",
+      "city": "Cidade",
+      "status": "Status",
+      "id": "7073"
+    },
+    {
+      "name": "teste2",
+      "email": "teste2@hotmail.com",
+      "password": "123",
+      "role": "teste2 descrição",
+      "age": "28",
+      "city": "Outra Cidade",
+      "status": "Ativo",
+      "id": "7afd"
+    },
+    {
+      "name": "teste3",
+      "email": "teste3@hotmail.com",
+      "password": "123",
+      "role": "teste3 descrição",
+      "age": "30",
+      "city": "Alguma Cidade",
+      "status": "Inativo",
+      "id": "f3ad"
+    },
+    {
+      "name": "teste4",
+      "email": "teste4@hotmail.com",
+      "password": "123",
+      "role": "teste4 descrição",
+      "age": "25",
+      "city": "Qualquer Cidade",
+      "status": "Ativo",
+      "id": "3abd"
+    },
+    {
+      "name": "user1",
+      "email": "user1@hotmail.com",
+      "password": "123",
+      "role": "user1 descrição",
+      "age": "26",
+      "city": "Cidade Usuário 1",
+      "status": "Ativo",
+      "id": "d3ca"
+    },
+    {
+      "name": "user2",
+      "email": "user2@example.com",
+      "password": "password",
+      "role": "user",
+      "age": "24",
+      "city": "Cidade Usuário 2",
+      "status": "Inativo",
+      "id": "e4bc"
+    },
+    {
+      "name": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "age": "32",
+      "city": "Cidade Administrador",
+      "status": "Ativo",
+      "id": "a5cd"
+    },
+    {
+      "name": "john",
+      "email": "john@example.com",
+      "password": "john123",
+      "role": "user",
+      "age": "27",
+      "city": "Cidade Usuário 3",
+      "status": "Ativo",
+      "id": "b6de"
+    },
+    {
+      "name": "jane",
+      "email": "jane@example.com",
+      "password": "jane123",
+      "role": "user",
+      "age": "29",
+      "city": "Cidade Usuário 4",
+      "status": "Inativo",
+      "id": "c7ef"
+    }
+  ],
+  "services": [
+    {
+      "name": "Service 1",
+      "description": "Service description 1",
+      "price": 100,
+      "duration": 60,
+      "category": "Category 1",
+      "id": "1"
+    },
+    {
+      "name": "Service 2",
+      "description": "Service description 2",
+      "price": 200,
+      "duration": 90,
+      "category": "Category 2",
+      "id": "2"
+    },
+    {
+      "name": "Service 3",
+      "description": "Service description 3",
+      "price": 150,
+      "duration": 45,
+      "category": "Category 1",
+      "id": "3"
+    },
+    {
+      "name": "Service 4",
+      "description": "Service description 4",
+      "price": 250,
+      "duration": 120,
+      "category": "Category 3",
+      "id": "4"
+    },
+    {
+      "name": "Service 5",
+      "description": "Service description 5",
+      "price": 300,
+      "duration": 150,
+      "category": "Category 2",
+      "id": "5"
+    },
+    {
+      "name": "Service 6",
+      "description": "Service description 6",
+      "price": 400,
+      "duration": 180,
+      "category": "Category 3",
+      "id": "6"
+    },
+    {
+      "name": "Service 7",
+      "description": "Service description 7",
+      "price": 350,
+      "duration": 110,
+      "category": "Category 1",
+      "id": "7"
+    },
+    {
+      "name": "Service 8",
+      "description": "Service description 8",
+      "price": 500,
+      "duration": 200,
+      "category": "Category 2",
+      "id": "8"
+    },
+    {
+      "name": "Service 9",
+      "description": "Service description 9",
+      "price": 450,
+      "duration": 160,
+      "category": "Category 3",
+      "id": "9"
+    },
+    {
+      "name": "Service 10",
+      "description": "Service description 10",
+      "price": 180,
+      "duration": 75,
+      "category": "Category 1",
+      "id": "10"
+    },
+    {
+      "name": "Service 11",
+      "description": "Service description 11",
+      "price": 220,
+      "duration": 100,
+      "category": "Category 2",
+      "id": "11"
+    },
+    {
+      "name": "Service 12",
+      "description": "Service description 12",
+      "price": 280,
+      "duration": 130,
+      "category": "Category 3",
+      "id": "12"
+    },
+    {
+      "name": "Service 13",
+      "description": "Service description 13",
+      "price": 320,
+      "duration": 140,
+      "category": "Category 1",
+      "id": "13"
+    },
+    {
+      "name": "Service 14",
+      "description": "Service description 14",
+      "price": 370,
+      "duration": 115,
+      "category": "Category 2",
+      "id": "14"
+    },
+    {
+      "name": "Service 15",
+      "description": "Service description 15",
+      "price": 420,
+      "duration": 170,
+      "category": "Category 3",
+      "id": "15"
     }
   ]
 }
