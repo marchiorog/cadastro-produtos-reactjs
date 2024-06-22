@@ -60,7 +60,7 @@ export default function Register() {
   return (
     <div className="register-container">
       <div className="register-form">
-        <img src={logo} alt="Logo da aplicação" className="logo-register" /> {/* Logo dentro do container */}
+        <img src={logo} alt="Logo da aplicação" className="logo-register" /> 
         <h2>Cadastro WebApp</h2>
         {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>

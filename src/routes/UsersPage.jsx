@@ -81,41 +81,11 @@ const UsersPage = () => {
       <h2>Usuários</h2>
 
       <div className="search-filters">
-        <input
-          type="text"
-          placeholder="Pesquisar usuários..."
-          value={searchTerm}
-          onChange={handleSearchChange}
-          className="search-bar"
-        />
-        <input
-          type="text"
-          placeholder="Filtrar por função..."
-          value={roleFilter}
-          onChange={handleRoleFilterChange}
-          className="filter-input"
-        />
-        <input
-          type="number"
-          placeholder="Filtrar por idade..."
-          value={ageFilter}
-          onChange={handleAgeFilterChange}
-          className="filter-input"
-        />
-        <input
-          type="text"
-          placeholder="Filtrar por cidade..."
-          value={cityFilter}
-          onChange={handleCityFilterChange}
-          className="filter-input"
-        />
-        <input
-          type="text"
-          placeholder="Filtrar por status..."
-          value={statusFilter}
-          onChange={handleStatusFilterChange}
-          className="filter-input"
-        />
+        <input type="text" placeholder="Pesquisar usuários..." value={searchTerm} onChange={handleSearchChange} className="search-bar" />
+        <input type="text" placeholder="Filtrar por função..." value={roleFilter} onChange={handleRoleFilterChange} className="filter-input" />
+        <input type="number" placeholder="Filtrar por idade..." value={ageFilter} onChange={handleAgeFilterChange} className="filter-input" />
+        <input type="text" placeholder="Filtrar por cidade..." value={cityFilter} onChange={handleCityFilterChange} className="filter-input" />
+        <input type="text" placeholder="Filtrar por status..." value={statusFilter} onChange={handleStatusFilterChange} className="filter-input" />
       </div>
 
       {loading && <p>Carregando usuários...</p>}

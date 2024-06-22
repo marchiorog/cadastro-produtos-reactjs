@@ -71,24 +71,13 @@
       "id": "a5cd"
     },
     {
-      "name": "john",
-      "email": "john@example.com",
-      "password": "john123",
-      "role": "user",
-      "age": "27",
-      "city": "Cidade Usuário 3",
-      "status": "Ativo",
-      "id": "b6de"
-    },
-    {
-      "name": "jane",
-      "email": "jane@example.com",
-      "password": "jane123",
-      "role": "user",
-      "age": "29",
-      "city": "Cidade Usuário 4",
-      "status": "Inativo",
-      "id": "c7ef"
+      "name": "Usuario Teste",
+      "email": "usuarioteste@hotmail.com",
+      "password": "123",
+      "age": "",
+      "city": "",
+      "status": "",
+      "id": "f59f"
     }
   ],
   "services": [
@@ -205,12 +194,12 @@
       "id": "14"
     },
     {
-      "name": "Service 15",
-      "description": "Service description 15",
-      "price": 420,
-      "duration": 170,
-      "category": "Category 3",
-      "id": "15"
+      "id": "39d7",
+      "name": "Serviço teste",
+      "description": "Descrição do serviço teste",
+      "price": "300",
+      "duration": "60",
+      "category": "Serviços"
     }
   ]
 }

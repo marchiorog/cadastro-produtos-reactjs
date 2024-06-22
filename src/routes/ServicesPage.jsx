@@ -96,48 +96,12 @@ export default function ServicesPage() {
       <h2>Serviços Disponíveis</h2>
       
       <div className="search-filters">
-        <input 
-          type="text" 
-          placeholder="Pesquisar serviços..." 
-          value={searchTerm} 
-          onChange={handleSearchChange} 
-          className="search-bar"
-        />
-        <input 
-          type="number" 
-          placeholder="Preço mínimo" 
-          value={minPrice} 
-          onChange={handleMinPriceChange} 
-          className="filter-input"
-        />
-        <input 
-          type="number" 
-          placeholder="Preço máximo" 
-          value={maxPrice} 
-          onChange={handleMaxPriceChange} 
-          className="filter-input"
-        />
-        <input 
-          type="number" 
-          placeholder="Duração mínima" 
-          value={minDuration} 
-          onChange={handleMinDurationChange} 
-          className="filter-input"
-        />
-        <input 
-          type="number" 
-          placeholder="Duração máxima" 
-          value={maxDuration} 
-          onChange={handleMaxDurationChange} 
-          className="filter-input"
-        />
-        <input 
-          type="text" 
-          placeholder="Categoria" 
-          value={categoryFilter} 
-          onChange={handleCategoryChange} 
-          className="filter-input"
-        />
+        <input type="text" placeholder="Pesquisar serviços..." value={searchTerm} onChange={handleSearchChange} className="search-bar" />
+        <input type="number" placeholder="Preço mínimo" value={minPrice} onChange={handleMinPriceChange} className="filter-input" />
+        <input type="number" placeholder="Preço máximo" value={maxPrice} onChange={handleMaxPriceChange} className="filter-input" />
+        <input type="number" placeholder="Duração mínima" value={minDuration} onChange={handleMinDurationChange} className="filter-input" />
+        <input type="number" placeholder="Duração máxima" value={maxDuration} onChange={handleMaxDurationChange} className="filter-input" />
+        <input type="text" placeholder="Categoria" value={categoryFilter} onChange={handleCategoryChange} className="filter-input" />
         <select onChange={handleSortChange} className="sort-select">
           <option value="">Ordenar por</option>
           <option value="name">Nome</option>
@@ -160,7 +124,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <p>{service.description}</p>
-            <p>Preço: R${service.price.toFixed(2)}</p>
+            <p>Preço: R${service.price}</p>
             <p>Duração: {service.duration} minutos</p>
             <p>Categoria: {service.category}</p>
           </li>
