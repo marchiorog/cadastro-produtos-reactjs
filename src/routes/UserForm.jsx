@@ -47,72 +47,17 @@ export default function UserForm() {
         <h2>Formulário de Usuário</h2>
         <form onSubmit={handleSubmit}>
           <label className="form-label" htmlFor="name">Nome:</label>
-          <input 
-            type="text" 
-            id="name" 
-            value={name} 
-            onChange={(e) => setName(e.target.value)} 
-            placeholder="Nome" 
-            required 
-          />
-          
+          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome" required />
           <label className="form-label" htmlFor="email">E-mail:</label>
-          <input 
-            type="email" 
-            id="email" 
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
-            placeholder="Email" 
-            required 
-          />
-          
-          <label className="form-label" htmlFor="password">Senha:</label>
-          <input 
-            type="password" 
-            id="password" 
-            value={password} 
-            onChange={(e) => setPassword(e.target.value)} 
-            placeholder="Senha" 
-            required 
-          />
-          
+          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" required />                  
           <label className="form-label" htmlFor="role">Função:</label>
-          <input 
-            type="text" 
-            id="role" 
-            value={role} 
-            onChange={(e) => setRole(e.target.value)} 
-            placeholder="Função" 
-            required 
-          />
-          
+          <input type="text" id="role" value={role} onChange={(e) => setRole(e.target.value)} placeholder="Função" />         
           <label className="form-label" htmlFor="age">Idade:</label>
-          <input 
-            type="text" 
-            id="age" 
-            value={age} 
-            onChange={(e) => setAge(e.target.value)} 
-            placeholder="Idade" 
-          />
-          
+          <input type="text" id="age" value={age} onChange={(e) => setAge(e.target.value)} placeholder="Idade" />
           <label className="form-label" htmlFor="city">Cidade:</label>
-          <input 
-            type="text" 
-            id="city" 
-            value={city} 
-            onChange={(e) => setCity(e.target.value)} 
-            placeholder="Cidade" 
-          />
-          
+          <input type="text" id="city" value={city} onChange={(e) => setCity(e.target.value)} placeholder="Cidade" />
           <label className="form-label" htmlFor="status">Status:</label>
-          <input 
-            type="text" 
-            id="status" 
-            value={status} 
-            onChange={(e) => setStatus(e.target.value)} 
-            placeholder="Status" 
-          />
-          
+          <input type="text" id="status" value={status} onChange={(e) => setStatus(e.target.value)} placeholder="Status" />        
           <button type="submit">Salvar</button>
         </form>
       </div>

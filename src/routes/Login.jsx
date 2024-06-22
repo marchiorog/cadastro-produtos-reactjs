@@ -40,23 +40,9 @@ export default function Login() {
         <h2>Login WebApp</h2>
         <form onSubmit={handleSubmit}>
           <label className='form-label' htmlFor="email">E-mail:</label>
-          <input
-            className='form-input'
-            type="email"
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+          <input className='form-input' type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           <label className='form-label' htmlFor="senha">Senha:</label>
-          <input
-            className='form-input'
-            type="password"
-            name="senha"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <input className='form-input' type="password" name="senha" value={password} onChange={(e) => setPassword(e.target.value)} required />
           {error && <p className="error">{error}</p>}
           <button className="form-submit" type="submit">Entrar</button>
         </form>
