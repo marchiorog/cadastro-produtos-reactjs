@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Importe a imagem do logo
+import logo from '../assets/logo.png'; 
 import '../styles/Register.css';
 
 export default function Register() {
@@ -22,9 +22,23 @@ export default function Register() {
     }
   }, [id]);
 
+  const handleEmailCheck = async () => {
+    if (!id) {
+      const response = await fetch(`http://localhost:3000/users?email=${email}`);
+      const data = await response.json();
+      if (data.length > 0) {
+        setError('Já existe um usuário com esse E-mail.');
+        return false;
+      }
+    }
+    return true;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(null); 
+    const isEmailValid = await handleEmailCheck();
+    if (!isEmailValid) return;
 
     try {
       const method = id ? 'PUT' : 'POST';
@@ -62,7 +76,7 @@ export default function Register() {
       <div className="register-form">
         <img src={logo} alt="Logo da aplicação" className="logo-register" /> 
         <h2>Cadastro WebApp</h2>
-        {error && <p className="error">{error}</p>}
+        {error && <p className="error">{error}</p>} {/* Display error message */}
         <form onSubmit={handleSubmit}>
           <label className='form-label' htmlFor="email">Nome completo:</label>
           <input type="text" className="form-input" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome" required />
