@@ -66,14 +66,12 @@ const UsersPage = () => {
   };
 
   const filteredUsers = users.filter(user =>
-    user.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    user.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    (user.role && user.role.toLowerCase().includes(searchTerm.toLowerCase())) ||
-    (user.age && user.age.toString().includes(ageFilter)) ||
-    (user.city && user.city.toLowerCase().includes(cityFilter.toLowerCase())) ||
-    (user.status && user.status.toLowerCase().includes(statusFilter.toLowerCase()))
-  ).filter(user =>
-    !roleFilter || (user.role && user.role.toLowerCase().includes(roleFilter.toLowerCase()))
+    (user.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    user.email.toLowerCase().includes(searchTerm.toLowerCase())) &&
+    (!roleFilter || (user.role && user.role.toLowerCase().includes(roleFilter.toLowerCase()))) &&
+    (!ageFilter || (user.age && user.age.toString().includes(ageFilter))) &&
+    (!cityFilter || (user.city && user.city.toLowerCase().includes(cityFilter.toLowerCase()))) &&
+    (!statusFilter || (user.status && user.status.toLowerCase().includes(statusFilter.toLowerCase())))
   );
 
   return (

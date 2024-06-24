@@ -1,17 +1,7 @@
 {
   "users": [
     {
-      "name": "teste",
-      "email": "teste@hotmail.com",
-      "password": "123",
-      "role": "teste",
-      "age": "23",
-      "city": "Cidade",
-      "status": "Status",
-      "id": "7073"
-    },
-    {
-      "name": "teste2",
+      "name": "teste5",
       "email": "teste2@hotmail.com",
       "password": "123",
       "role": "teste2 descrição",
@@ -41,7 +31,7 @@
       "id": "3abd"
     },
     {
-      "name": "user1",
+      "name": "user12",
       "email": "user1@hotmail.com",
       "password": "123",
       "role": "user1 descrição",
@@ -71,18 +61,19 @@
       "id": "a5cd"
     },
     {
-      "name": "Usuario Teste",
-      "email": "usuarioteste@hotmail.com",
-      "password": "123",
-      "age": "",
-      "city": "",
-      "status": "",
-      "id": "f59f"
+      "id": "be6d",
+      "name": "Usuario",
+      "email": "teste11@hotmail.com",
+      "password": "1234",
+      "role": "dasda",
+      "age": "dasdsad",
+      "city": "dasdad",
+      "status": "dasada"
     }
   ],
   "services": [
     {
-      "name": "Service 1",
+      "name": "Service Teste 1",
       "description": "Service description 1",
       "price": 100,
       "duration": 60,
@@ -184,22 +175,6 @@
       "duration": 140,
       "category": "Category 1",
       "id": "13"
-    },
-    {
-      "name": "Service 14",
-      "description": "Service description 14",
-      "price": 370,
-      "duration": 115,
-      "category": "Category 2",
-      "id": "14"
-    },
-    {
-      "id": "39d7",
-      "name": "Serviço teste",
-      "description": "Descrição do serviço teste",
-      "price": "300",
-      "duration": "60",
-      "category": "Serviços"
     }
   ]
 }
